@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(245, 207, 174);
+}
+
+
+/* Text */
+p {
+    color: rgb(94, 63, 37);
+    font-family: 'verdana';
+    font-size: medium;
+}
+
+h1, h2, h3 {
+    color:rgb(49, 36, 21);
+    font-weight: bold;
+    text-align:center;
+    margin: 0;
+
+}
+
+h1:hover, h2:hover, h3:hover {
+    font-size: 3rem;
+    color: coral;
+}
+
+h1 {
+    background-color: rgb(69, 31, 105);
+    color: bisque;
+}
+
+h2 {
+    background-color: rgb(129, 98, 158);
+    color: bisque;
+}
+
+h3 {
+    background-color: rgb(209, 190, 226);
+    color: bisque;
+}
+
+h4 {
+    border: 2px dashed red;
+    padding: 30px;
+    padding-bottom: 100px;
+    background-image: url("/Bilder/weird-random.gif");
+    background-size: 100% 100%;
+    
+}
+
+.textimg {
+    float: right;
+}
+
+
+/* Annat */
+mark {
+    background-color: rgb(240, 208, 255);
+}
+
+/* Tables */
+th, td {
+    border-bottom: 1px solid black;
+  }
+
+td:hover, th:hover {
+    background-color: rgba(255, 127, 80, 0.349);
+}
+
+tr:nth-child(even) {
+    background-color: bisque;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(238, 199, 150);
+}
+
+/* selection */
+::selection {
+    color: red;
+    background: yellow;
+}
+
+
+
+/* Lists */
+
+li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+    list-style-type: none;
+}
