@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(18, 18, 18);
+    font-family: monospace;
+    color:rgb(122, 120, 120)
+}
+
+
+/* Hover */
+h1:hover {
+    color: rgb(252, 249, 249);
+    transition: color ease 0.3s;
+    text-decoration: underline;
+}
+
+p:hover {
+    color: blanchedalmond;
+    transition: color ease 0.3s;
+    border: whitesmoke solid 1px;
+}
+
+/* Buttons */
+button {
+    background-color: blanchedalmond;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10%;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: rgb(18, 18, 18);
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Links */
+a  {
+    color: inherit;
+    text-decoration: inherit;
+   }
+
+img {
+    padding: 1rem;
+    margin-left: 2px;
+}
+
+img:hover {
+    border: whitesmoke dashed 2px;
+    box-shadow: 0 0 10px;
+    border-radius: 20%;
+}

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(31, 27, 25);
+}
+
+main {
+    font-family: "Heebo", sans-serif;
+}
+
+.landing{
+    min-height: 100vh;
+    max-height: 100vh;
+    background: url('./kebab.jpg');
+    background-size: cover;
+}
+
+a {
+    all:inherit;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    color: rgb(231, 189, 154);
+}
+
+.nav-links li {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 100px;
+}
+
+.nav-links li:hover {
+    background: rgba(255, 255, 255, 0.089);
+    transition: ease 0.5s;
+}
+
+.logo-text {
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3rem;
+    color: rgb(226, 216, 216);
+    text-shadow: 2px 2px 2px black;
+}
+
+.logo-text:hover {
+    transition: ease 0.3s;
+    color: rgb(228, 196, 196);
+    text-shadow: 3px 3px 2px black;
+}
+
+.big-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 5rem;
+    font-family: 'Rubik Bubbles', cursive;
+    color: rgb(23, 28, 31);
+    text-shadow: 2px 2px 5px pink;
+}
+
+.big-text:hover {
+    transition: ease 0.1s;
+    color: pink;
+    text-shadow: 3px 3px 5px rgb(27, 27, 27);
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: antiquewhite;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+.facts h1 {
+    font-family: 'Kolker Brush', cursive;
+    font-size: 5rem;
+    color: antiquewhite;
+    padding-left: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.facts p {
+    font-size: 1rem;
+    color: antiquewhite;
+    padding: 0rem 5rem;
+    text-align: center;
+}

@@ -44,11 +44,18 @@ h4 {
     padding-bottom: 100px;
     background-image: url("/Bilder/weird-random.gif");
     background-size: 100% 100%;
-    
+
+/* Bilder */
 }
 
 .textimg {
     float: right;
+}
+
+.hiddenimg {
+    display: none;
+    width: 50%;
+    margin-top: 2rem;
 }
 
 
@@ -88,4 +95,24 @@ li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: blueviolet;
     list-style-type: none;
+}
+
+/* Buttons */
+button {
+    background-color: rgb(69, 31, 105);
+    border: none;
+    color: bisque;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: blueviolet;
+    box-shadow: 0 0 1rem #3e2446;
 }
